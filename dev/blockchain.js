@@ -9,7 +9,7 @@ function Blockchain(){
     this.pendingTransactions = [];
 
     //Genisis Block
-    this.createNewBlock(100,'DUMMYYY','TENUPP');
+    this.createNewBlock(100,'DUMMYYY','DUMMYYY');
     this.currentNodeUrl = currentNodeUrl;
     this.networkNodes = [];
 }
